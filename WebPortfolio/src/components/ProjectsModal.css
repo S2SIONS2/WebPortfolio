@@ -89,9 +89,14 @@ section:not(.projectTitle){
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+    gap: 10px;
 }
 .projectImg >img{
-    width: 100%;
+    /* width: 100%; */
+    flex: 1;
+    min-width: 0;
+    max-height: 600px;
+    object-fit: contain;
 }
 .projectIntro{
     width: 100%;

@@ -67,7 +67,7 @@ const tagWordsModal = ({modal1, setModal1}) => {
                     <p>- 해결 방법: Async/Await를 사용하여 동기 방식으로 API와 함수를 호출함으로써 문제를 해결함.</p>
                 </section>
                 <section className='projectAfter'>
-                    <div className='subTitle'>프로젝트를 끝내고 나서...</div>
+                    <div className='subTitle'>프로젝트를 통해 배운점</div>
                     <div>
                         1. API 호출 법과 Access-Control-Allow-Origin 에러 처리 방법에 대해 알게 되었다.
                     </div>

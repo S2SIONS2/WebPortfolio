@@ -8,13 +8,14 @@ import { faFigma } from '@fortawesome/free-brands-svg-icons'
 import { faBootstrap } from '@fortawesome/free-brands-svg-icons'
 import { faSass } from '@fortawesome/free-brands-svg-icons'
 import jQuery from  '../assets/jQuery.png';
+import profileImg from '../assets/myProfile.jpeg';
 
 const About = () => {
     return(
         <div className="About">
             <section className="profile">
                 <div className="imgArea">
-                    
+                    <img src={profileImg} alt=''/>
                 </div>
                 <div className="intro">
                     <h1>이시온</h1>

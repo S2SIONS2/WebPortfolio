@@ -10,10 +10,19 @@
     flex-wrap: wrap;
 }
 .About .imgArea{
-    background-color:#2d2d2d;
+    background: linear-gradient(90deg, #737e7e, #93a4ac);
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.About .imgArea >img{
+    width: auto;
+    height: 100%;
 }
 .About .intro{
     height: 100%;
