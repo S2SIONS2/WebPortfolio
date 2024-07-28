@@ -1,0 +1,117 @@
+.Contact{
+    width: 100%;
+    height: 100vh;
+    padding: 100px 150px;
+    box-sizing: border-box;
+}
+.Contact .title {
+    font-size: 35px;
+    font-weight: bold;
+}
+.Contact .contact_wrap {
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: 2px solid #d5d5d5;
+    border-radius: 5px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.Contact .wrap{
+    display: flex;
+    align-items: center;
+}
+.Contact .logo{
+    display: flex;
+    align-items: center;
+}
+.Contact .logo h1{
+    margin-left: 15px;
+}
+.Contact button{
+    font-size: 16px;
+    margin-left: 10px;
+    color: #fff;
+    background-color: #2d2d2d;
+    border: 2px solid #767676;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+}
+.Contact .Toastify{
+    background-color: #2d2d2d;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    display: none;
+}
+
+/*모바일 웹*/
+@media screen and (max-width: 479px) {
+    .Contact{
+        padding:60px 20px;
+    }
+    .Contact button{
+        display: none;
+    }
+    .Contact h1{
+        font-size: var(--mobile-font-size-large) !important;
+    }
+    .Contact h2{
+        font-size: var(--mobile-font-size-medium) !important;
+    }
+    .Contact p{
+        font-size: var(--mobile-font-size-small) !important;
+    }
+    .Contact .svg-inline--fa{
+        display: none;
+    }
+    .Contact .contact_wrap{
+        gap: 20px;
+        padding: 20px;
+    }
+    .Contact .logo{
+        margin-right: 10px;
+    }
+}
+
+/* 최소화 웹 */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .Contact{
+        padding:100px 50px;
+    }
+    .Contact h1{
+        font-size: var(--mobile-font-size-extra-large) !important;
+    }
+    .Contact h2{
+        font-size: var(--mobile-font-size-large) !important;
+    }
+    .Contact p{
+        font-size: var(--mobile-font-size-medium) !important;
+    }
+    .Contact .svg-inline--fa{
+        display: none;
+    }
+    .Contact .contact_wrap{
+        gap: 20px;
+        padding: 20px;
+    }
+}
+
+/* 태블릿 */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .Contact{
+        padding:100px 80px;
+    }
+    .Contact .svg-inline--fa{
+        font-size: 2rem !important;
+    }
+    .Contact h1{
+        font-size: var(--tablet-font-size-extra-large) !important;
+    }
+    .Contact .svg-inline--fa{
+        font-size: 1.8rem !important;
+    }
+}
