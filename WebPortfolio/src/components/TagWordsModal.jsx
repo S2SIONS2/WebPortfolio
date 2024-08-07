@@ -20,7 +20,7 @@ const tagWordsModal = ({modal1, setModal1}) => {
                         <div className='tooltip'>블로그 바로가기</div>
                     </li> 
                     <li>
-                        <a href="/" target='_blank'><FontAwesomeIcon icon={faWindowMaximize} /></a>
+                        <a href="http://tagwords.sionsdiary.site/" target='_blank'><FontAwesomeIcon icon={faWindowMaximize} /></a>
                         <div className='tooltip'>웹사이트 바로가기</div>
                     </li> 
                     <li>

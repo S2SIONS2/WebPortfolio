@@ -37,7 +37,7 @@ const Projects = () => {
                                     type='button'
                                     onClick={openModal1}
                                 > 자세히 보기 </button>                                   
-                                <button type='button'> <a href='https://github.com/S2SIONS2/TagWords' target='_blank'>GitHub 바로가기</a> </button>
+                                <button type='button'> <a href='http://tagwords.sionsdiary.site' target='_blank'>웹페이지 바로가기</a> </button>
                             </div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ const Projects = () => {
                                     type='button'
                                     onClick={openModal2}
                                 > 자세히 보기 </button>                                   
-                                <button type='button'> <a href='https://github.com/S2SIONS2/TagWords' target='_blank'>GitHub 바로가기</a> </button>
+                                <button type='button'> <a href='http://beauline.sionsdiary.site' target='_blank'>웹페이지 바로가기</a> </button>
                             </div>
                         </div>
                     </div>

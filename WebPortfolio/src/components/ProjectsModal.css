@@ -66,6 +66,9 @@
 }
 
 /*content*/
+.modalWrap p{
+    line-height: 1.3;
+}
 .modalContent{
     width: 100%;
     height: calc(100% - 70px);
@@ -134,11 +137,14 @@ section:not(.projectTitle){
     font-size: 20px;
     margin-top: 20px;
 }
-.projectTroubleShooting p{
-    padding-top: 5px;
+:is(.projectTroubleShooting, .projectAfter) p{
+    padding-top: 10px;
     font-size: 18px;
 }
 
+.projectAfter div.troubleIssue{
+    font-size: 20px;
+}
 .projectAfter div:not(.subTitle){
     margin-top: 20px;
     font-size: 18px;

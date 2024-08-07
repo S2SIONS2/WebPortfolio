@@ -14,7 +14,7 @@ const BueaLine = ({modal2, setModal2}) => {
             <div className="modalHeader">
                 <ul className="modalNav">
                    <li>
-                        <a href="https://github.com/S2SIONS2/TagWords" target='_blank'><FontAwesomeIcon icon={faGithub} /></a>
+                        <a href="https://github.com/S2SIONS2/BueatyLine" target='_blank'><FontAwesomeIcon icon={faGithub} /></a>
                         <div className='tooltip'>깃허브 바로가기</div>
                     </li>
                     <li>
@@ -22,7 +22,7 @@ const BueaLine = ({modal2, setModal2}) => {
                         <div className='tooltip'>블로그 바로가기</div>
                     </li> 
                     <li>
-                        <a href="/" target='_blank'><FontAwesomeIcon icon={faWindowMaximize} /></a>
+                        <a href="http://beauline.sionsdiary.site/" target='_blank'><FontAwesomeIcon icon={faWindowMaximize} /></a>
                         <div className='tooltip'>웹사이트 바로가기</div>
                     </li> 
                     <li>
@@ -60,26 +60,27 @@ const BueaLine = ({modal2, setModal2}) => {
                     <div className='subTitle'>추가 예정 기능</div>
                     <ul>
                         <li>연락처 관리를 위한 전화번호부 페이지</li>
-                        <li>API를 이용하여 리스트 호출, 추가, 수정 및 삭제와 검색기능</li>
-                        <li>총 작업 내역</li>
-                        <li>진행 중인 작업 내역</li>
+                        <li>총 작업 내역 리스트</li>
+                        <li>진행 중인 작업 내역 리스트</li>
                         <li>통계 차트</li>
                     </ul>
                 </section>
                 <section className='projectTroubleShooting'>
                     <div className='subTitle'>트러블 슈팅</div>
-                    <div className='troubleIssue'>1. JWT를 이용한 로그인 유지</div>
-                    <p>- 해결 방법: </p>
-                    <p>- 관련 블로그 포스팅: <a href='https://deer-develope-diary.tistory.com/18' target='_blank'>https://deer-develope-diary.tistory.com/18</a></p>
+                    <div className='troubleIssue'>1. 로그인 연결 후 리스트 추가 오류</div>
+                    <p>- 해결 방법: api호출 시 헤더에 액세스 토큰 값으로 권한을 부여한다.</p>
                 </section>
                 <section className='projectAfter'>
                     <div className='subTitle'>프로젝트를 통해 배운점</div>
                     <div>
-                        1. JWT 로그인 구현
-                        <p>- 관련 블로그 포스팅: <a href='https://deer-develope-diary.tistory.com/18' target='_blank'>https://deer-develope-diary.tistory.com/18</a></p>
+                        <div className='troubleIssue'>1. JWT 로그인 구현</div>
+                        <p>- 블로그 포스팅: 1. Route를 통한 로그인 경로 설정 <a href='https://deer-develope-diary.tistory.com/19' target='_blank'>https://deer-develope-diary.tistory.com/19</a></p>
+                        <p>- 블로그 포스팅: 2. JWT를 이용한 로그인 구현 방법 <a href='https://deer-develope-diary.tistory.com/23' target='_blank'>https://deer-develope-diary.tistory.com/23</a></p>
                     </div>
                     <div>
-                        2. 
+                        <div className='troubleIssue'>2. API get과 post 차이</div>
+                        <p>- get: api 리스트를 불러올 때 사용하며, 파라미터에 특정 조건을 넣으면 조건에 맞는 리스트만 불러올 수 있다.</p>
+                        <p>- post: api 리스트를 추가, 수정, 삭제 등 서버에 리스트(데이터)를 보내 리스트를 변경 할 수 있다.</p>
                     </div>
                 </section>
             </div>
