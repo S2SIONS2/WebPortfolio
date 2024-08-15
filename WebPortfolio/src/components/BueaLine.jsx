@@ -44,8 +44,8 @@ const BueaLine = ({modal2, setModal2}) => {
                     <ul>
                         <li>소개: 가게 운영을 위한 모바일 관리자 웹앱입니다.</li>
                         <li>개발 인원: 2인</li>
-                        <li>담당 역할: 기획, 프론트 개발, 퍼블리싱</li>
-                        <li>사용 기술: React, Bootstrap, Scss, JWT, API</li>
+                        <li>담당 역할: 기획, 프론트 개발, 퍼블리싱, 디자인</li>
+                        <li>사용 기술: React, Bootstrap5, Scss, JWT, API</li>
                         <li>로그인 - ID: user1, PW: 1111</li>
                     </ul>
                 </section>
@@ -54,13 +54,13 @@ const BueaLine = ({modal2, setModal2}) => {
                     <ul>
                         <li>로그인 기능 구현 및 로그인 유지</li>
                         <li>API를 이용하여 리스트 호출, 추가, 수정 및 삭제와 검색기능</li>
+                        <li>연락처 관리를 위한 전화번호부 페이지</li>
+                        <li>총 작업 내역 리스트 - 작업 추가 등 현재 개발중</li>
                     </ul>           
                 </section>
                 <section className='projectExplain'>
                     <div className='subTitle'>추가 예정 기능</div>
                     <ul>
-                        <li>연락처 관리를 위한 전화번호부 페이지</li>
-                        <li>총 작업 내역 리스트</li>
                         <li>진행 중인 작업 내역 리스트</li>
                         <li>통계 차트</li>
                     </ul>
