@@ -69,6 +69,9 @@ const BueaLine = ({modal2, setModal2}) => {
                     <div className='subTitle'>트러블 슈팅</div>
                     <div className='troubleIssue'>1. 로그인 연결 후 리스트 추가 오류</div>
                     <p>- 해결 방법: api호출 시 헤더에 액세스 토큰 값으로 권한을 부여한다.</p>
+                    <div className='troubleIssue'>2. 리스트 호출 오류</div>
+                    <p>- 문제 상황: 리스트 호출이 계속 반복해서 일어나 검색, 분류 기능이 작동했다가 안됐다가 반복함.</p>
+                    <p>- 해결 방법: useEffect로 반복 호출되던 리스트 호출 함수를 정리 및 getList 함수로 api 호출 통일화 </p>
                 </section>
                 <section className='projectAfter'>
                     <div className='subTitle'>프로젝트를 통해 배운점</div>
