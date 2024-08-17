@@ -29,7 +29,7 @@ const About = () => {
                     <div className="box">
                         <ul>
                             <li>
-                                <h2>(주) 텍트원 [2022.06 ~ 2024.04]</h2>
+                                <h2>(주) 텍트원 [2022.06 ~ 2024.03]</h2>
                             </li>
                             <li>
                                 <h2>1. 스마트 팩토리 기반 웹페이지 퍼블리싱</h2>
@@ -82,6 +82,9 @@ const About = () => {
                                 <p>
                                     <span style={{ background: `url(${jQuery}) no-repeat center/cover`, width:'18px', height: '18px', display: 'inline-block'}}></span>J-Query
                                 </p>
+                                <p>
+                                    <span><FontAwesomeIcon icon={faReact} /></span>React
+                                </p>
                                 <p>Svn</p>
                             </li>
                         </ul>
@@ -91,10 +94,7 @@ const About = () => {
                             <li>
                                 <h2>어느 정도 사용 할 수 있어요:</h2>                   
                             </li>
-                            <li>
-                                <p>
-                                    <span><FontAwesomeIcon icon={faReact} /></span>React
-                                </p>
+                            <li>                            
                                 <p>
                                     <span><FontAwesomeIcon icon={faSass} /></span>Scss
                                 </p>
