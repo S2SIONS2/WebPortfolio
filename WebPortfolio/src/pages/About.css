@@ -69,6 +69,12 @@
 .About ul li h2{
     margin:5px 0px;
 }
+.About ul li span{
+    font-size: 18px;
+}
+.About ul li p{
+    margin-left: 2rem;
+}
 
 .About .skillBox:last-child{
     margin-top: 20px;
