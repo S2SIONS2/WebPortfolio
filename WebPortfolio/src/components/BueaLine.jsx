@@ -34,7 +34,7 @@ const BueaLine = ({modal2, setModal2}) => {
             <div className='modalContent'>
                 <section className='projectTitle'>
                     <div>BueaLine</div>
-                    <div>기간: 2024. 07 ~ ing</div>
+                    <div>기간: 2024. 07 ~ 09</div>
                 </section>
                 <section className='projectImg'>
                     <img src={bueaLine} alt="" />
@@ -65,6 +65,10 @@ const BueaLine = ({modal2, setModal2}) => {
                             <span>- 날짜, 이름 별 검색 가능</span>
                             <span>- 미수금 내역 체크 시 외상 리스트만 확인</span>
                             <span>- 작업 완료 버튼과 리스트 체크박스로 작업 일괄 처리 가능</span>
+                            <span>- 작업 내역 리스트 수정 중 작업 추가 가능하게 수정</span>
+                            <span>- 리스트 수정 시 진행 중이던 작업 수정 가능하게 변경</span>
+                            <span>- 결제, 작업완료 여부 수정 및 메모 수정 가능</span>
+                            <span>- 작업 중복 추가 방지 및 체크 박스 표시</span>
                         <li>통계 차트</li>
                             <span>- Recharts 라이브러리를 이용한 차트 작업</span>
                             <span>- 총 예상 결과, 시술 별 총 금액, 총 인원 등의 차트 표시</span>
@@ -73,9 +77,8 @@ const BueaLine = ({modal2, setModal2}) => {
                 </section>
                 <section className='projectExplain'>
                     <div className='subTitle'>추가 예정 기능</div>
-                    <ul>
-                        <li>작업 내역 리스트 수정 중 작업 추가 가능하게 수정 예정</li>
-                        <li>전반적인 기능 추가 후 apk, 앱으로 제작 예정</li>
+                    <ul>                    
+                        <li>apk, 앱으로 제작 예정</li>
                     </ul>
                 </section>
                 <section className='projectTroubleShooting'>
