@@ -17,7 +17,7 @@
 .Projects .project_card{
     background-color: var(--bg-box-color);
     border-radius: 5px;
-    width: 33.3333%;
+    width: calc(33.3333% - 30px);
     height: 380px;
 }
 .Projects .imgArea{

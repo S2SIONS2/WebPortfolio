@@ -6,7 +6,7 @@ import { faWindowMaximize } from '@fortawesome/free-solid-svg-icons'
 import { faX } from '@fortawesome/free-solid-svg-icons'
 import tagWordsImg from '../assets/tagWords.png'
 
-const tagWordsModal = ({modal1, setModal1}) => {
+const tagWordsModal = ({setModal1}) => {
     return (
         <div className="tagWordsModal modalWrap">
             <div className="modalHeader">

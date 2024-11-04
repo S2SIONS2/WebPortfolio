@@ -9,7 +9,7 @@ import bueaCategory from '../assets/bueaCategory.png';
 import bueaCategory2 from '../assets/bueaCategory2.png';
 import bueaLine2 from '../assets/bueaLine2.png'
 
-const BueaLine = ({modal2, setModal2}) => {
+const BueaLine = ({setModal2}) => {
     return(
         <div className='BueaLine modalWrap'>
             <div className="modalHeader">
